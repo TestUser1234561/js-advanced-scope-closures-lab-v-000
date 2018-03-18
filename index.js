@@ -9,3 +9,9 @@ function produceDrivingRange(r) {
     }
   }
 }
+
+function produceTipCalculator(p) {
+  return function(v) {
+    return v * p;
+  }
+}
