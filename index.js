@@ -5,6 +5,7 @@ function produceDrivingRange(r) {
       return `${r - len} blocks out of range`
     } else {
       return `within range by ${len - r}`
+      console.log(len)
     }
   }
 }
