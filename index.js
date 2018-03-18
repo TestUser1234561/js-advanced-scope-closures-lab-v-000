@@ -3,9 +3,9 @@ function produceDrivingRange(r) {
     let len = parseInt(a.substring(0, 2)) - parseInt(b.substring(0, 2))
           console.log(len)
     if (len > r) {
-      return `${r - len} blocks out of range`
+      return `${len - r} blocks out of range`
     } else {
-      return `within range by ${len - r}`
+      return `within range by ${r - len}`
     }
   }
 }
